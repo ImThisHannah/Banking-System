@@ -9,8 +9,8 @@ from BankingClasses.validation import Validation
 
 from  BankingFunctions.deposit import handle_deposit
 from  BankingFunctions.withdraw import handle_withdrawal
-from  BankingFunctions.transfer import handle_transfer
-from  BankingFunctions.transfer import balances
+from  BankingFunctions.transfer import handle_transfer, balances
+
 
 def main():
     """
